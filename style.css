@@ -33,6 +33,7 @@
 
   .header-logo {
     font-size: 24px;
+    font-weight: bolder;
     color: #f9faf8;
     flex: 1;
   }
