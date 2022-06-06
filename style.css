@@ -74,10 +74,12 @@
       flex-direction: column;
       color: #e5e7eb;
       font-size: 18px;
+      margin: 20px;
   }
 
   .main-pic {
       flex: 1;
+      margin: 20px;
   }
 
   h1 {
