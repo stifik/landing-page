@@ -27,8 +27,6 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    padding-left: 50px;
-    padding-right: 50px;
     flex: 3;
     padding: 20px;
   }
