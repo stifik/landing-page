@@ -31,7 +31,6 @@
     padding: 20px;
   }
 
-
   .header-logo {
     font-size: 24px;
     color: #f9faf8;
@@ -53,4 +52,27 @@
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+  }
+
+  img {
+    width: 400px;
+  }
+
+  .main {
+    display: flex;
+  }
+
+  .main-main {
+      flex: 3;
+      display: flex;
+  }
+
+  .main-text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .main-pic {
+      flex: 1;
   }
