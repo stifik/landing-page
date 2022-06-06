@@ -56,8 +56,8 @@
   }
 
   img {
-    width: auto;
-    height: 250px;
+    width: 100%;
+    height: auto;
   }
 
   .main {
@@ -72,6 +72,13 @@
       background-color: #1F2937;
       padding: 20px;
   }
+  
+  h1 {
+      font-size: 48px;
+      font-weight: bolder;
+      color: #F9FAF8;
+      margin-bottom: 20px;
+  }
 
   .main-text {
       flex: 1;
@@ -79,16 +86,11 @@
       flex-direction: column;
       color: #e5e7eb;
       font-size: 18px;
+      margin-bottom: 20px;
   }
 
   .main-pic {
       flex: 1;
       display: flex;
       justify-content: flex-end;
-  }
-
-  h1 {
-      font-size: 48px;
-      font-weight: bolder;
-      color: #F9FAF8;
   }
