@@ -7,7 +7,6 @@
 
   body {
     font-family: 'Roboto', sans-serif;
-
   }
 
   header {
@@ -26,14 +25,13 @@
   }
 
   .header-links {
-
     flex: 1;
-
   }
 
   ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 15px;
     list-style: none;
   }
 
