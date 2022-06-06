@@ -17,6 +17,11 @@
     flex: 1;
     background-color: #1F2937;
   }
+  
+  .right {
+    flex: 1;
+    background-color: #1F2937;
+  }
 
   header {
     background-color: #1F2937;
@@ -25,12 +30,9 @@
     padding-left: 50px;
     padding-right: 50px;
     flex: 3;
+    padding: 20px;
   }
 
-  .right {
-    flex: 1;
-    background-color: #1F2937;
-  }
 
   .header-logo {
     font-size: 24px;
