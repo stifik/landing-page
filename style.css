@@ -71,7 +71,7 @@ img {
     justify-content: space-between;
     gap: 20px;
     background-color: #1F2937;
-    padding: 20px;
+    padding: 150px 20px;
     align-items: center;
 }
   
@@ -98,10 +98,51 @@ h1 {
 .hero-button {
   background-color: #3882f6;
   border-radius: 6px;
-  padding: 5px;
+  padding: 10px 30px;
   border-width: 0px;
-  width: 70px;
   color: #f9faf8;
   font-weight: bold;
   margin-top: 10px;
+  width: fit-content;
 }
+
+
+.info {
+  display: flex;
+  background-color: transparent;
+}
+
+.info-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 3;
+  padding: 50px 0px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding: 50px;
+}
+
+.info-list {
+  display: flex;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.list-pic {
+  width: 100%;
+  border: solid #3882f6;
+  border-width: 4px;
+  border-radius: 10px;
+}
+
