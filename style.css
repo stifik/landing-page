@@ -168,4 +168,50 @@ h2 {
   font-size: 24px;
   font-weight: bolder;
   align-self: flex-end;
+  margin: 20px;
 }
+
+.call-to-action {
+  display: flex;
+  background-color: transparent;
+  margin: 50px 0px;
+}
+
+.call-to-action-main {
+  flex: 3; 
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 40px 100px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-to-action-text {
+  display: flex;
+  flex-direction: column;
+  }
+
+h3 {
+
+}
+
+.action-button {
+  background-color: #3882f6;
+  border-color: #e5e7eb;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  color: #e5e7eb;
+  padding: 10px 30px;
+}
+
+background-color: #3882f6;
+border-radius: 6px;
+padding: 10px 30px;
+border-width: 0px;
+color: #f9faf8;
+font-weight: bold;
+margin-top: 10px;
+width: fit-content;
