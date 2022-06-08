@@ -129,6 +129,7 @@ h2 {
 
 .info-list {
   display: flex;
+  padding: 0px 80px;
 }
 
 .list-item {
@@ -193,10 +194,6 @@ h2 {
   flex-direction: column;
   }
 
-h3 {
-
-}
-
 .action-button {
   background-color: #3882f6;
   border-color: #e5e7eb;
@@ -207,11 +204,11 @@ h3 {
   padding: 10px 30px;
 }
 
-background-color: #3882f6;
-border-radius: 6px;
-padding: 10px 30px;
-border-width: 0px;
-color: #f9faf8;
-font-weight: bold;
-margin-top: 10px;
-width: fit-content;
+footer {
+  background-color: #1F2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
